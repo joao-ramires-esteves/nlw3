@@ -1,2 +1,3 @@
 # nlw3
-:rocket: minha segunda NLW - dessa vez na trilha OmniStack
+## :rocket: minha segunda NLW - dessa vez na trilha OmniStack
+o projeto executado será o `Happy`
