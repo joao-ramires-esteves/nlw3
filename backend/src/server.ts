@@ -36,4 +36,6 @@ app.listen(3333);
 
 // ORM => object relational mapping
 
+module.exports = app;
+
 
