@@ -36,7 +36,7 @@ export default function Orphanage() {
       api.get(`orphanages/${params.id}`).then(response =>{
           setOrphanage(response.data);
       })
-  }, []);
+  }, [params.id]);
 
   if (!orphanage) {
     return <p>carregando...</p>;

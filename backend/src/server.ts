@@ -14,7 +14,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 app.use(routes);
-app.use('/uploads', express.static(path.join(__dirname, '..', 'uploads')));
+app.use('/uploads', express.static(path.join(__dirname, '..', 'uploads')))
 app.use(errorHandler);
 
 // rota => todo o app.get
@@ -33,9 +33,4 @@ app.use(errorHandler);
 // body => infos `complexas`
 
 app.listen(3333);
-
-// ORM => object relational mapping
-
-module.exports = app;
-
 
